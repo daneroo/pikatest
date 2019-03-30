@@ -1,20 +1,20 @@
 
 // // These break!!!!
-// import { Welcome } from './Welcome'
-// import { Greeter } from './Greeter'
+export { Welcome } from './Welcome'
+export { Greeter } from './Greeter'
 
 // export {
 //   Greeter, Welcome
 // }
 
-import React from 'react'
-import PropTypes from 'prop-types'
+// import React from 'react'
 
-export const Greeter = (name) => `Hello ${name}, from a library`
+// export function Welcome ({ name = 'Dan-eroo' }) {
+//   return (<h4>Hello, {name} from a component in a library</h4>)
+// }
 
-export function Welcome ({ name = 'Dan-eroo' }) {
-  return (<h4>Hello, {name}</h4>)
-}
+// export function Wilkomen ({ name = 'Dan-eroo' }) {
+//   return (<h4>Wilkomen, {name} from a component in a library, with a hook</h4>)
+// }
 
-Welcome.propTypes = { name: PropTypes.string }
-Welcome.defaultProps = { name: 'Dan-eroo' }
+// export const Greeter = (name) => `Hello ${name}, from a library`
