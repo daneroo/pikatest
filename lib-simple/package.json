@@ -1,6 +1,6 @@
 {
   "name": "@daneroo/pika-lib-simple",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Trying pika pack",
   "author": "",
   "homepage": "https://github.com/daneroo/pikatest#readme",
@@ -20,7 +20,7 @@
         "@pika/plugin-standard-pkg",
         {
           "exclude": [
-            "__tests__/*"
+            "__tests__/**"
           ]
         }
       ],
