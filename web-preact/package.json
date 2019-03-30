@@ -1,0 +1,21 @@
+{
+  "name": "web-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "pika-web",
+    "start": "serve -l 8001 ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^2.1.1",
+    "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.4.1",
+    "serve": "^10.1.2"
+  }
+}
