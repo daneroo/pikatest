@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "prepare": "pika-web",
+    "start": "serve -l 8001 ./"
+  },
+  "dependencies": {
+    "@emotion/hash": "^0.6.6",
+    "epoch-timeago": "^1.1.9",
+    "slugy": "^1.0.2"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.4.1",
+    "serve": "^10.1.2"
+  }
+}
