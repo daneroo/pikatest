@@ -2,4 +2,6 @@
  * Greet your friends!
  * @param {string} name
  */
-export const Greeter = (name) => `Hello ${name}, from ${import.meta.url}`;
+
+//  later: ${import.meta.url}
+export const Greeter = (name) => `Hello ${name}, from a library`

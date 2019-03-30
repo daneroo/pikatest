@@ -1,5 +1,7 @@
-import { Greeter } from '../index';
+import { Greeter } from '../index'
 
-test('My Greeter', () => {
-  expect(Greeter('Carl').startsWith('Hello Carl')).toBeTrue();
-});
+describe('Greeter', () => {
+  test('Greeter', () => {
+    expect(Greeter('Carl').startsWith('Hello Carl')).toEqual(true)
+  })
+})
