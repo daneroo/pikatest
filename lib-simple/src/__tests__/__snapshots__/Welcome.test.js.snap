@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome Welcome renders 1`] = `
+<h4>
+  Hello, 
+  Dan-eroo
+</h4>
+`;
+
+exports[`Welcome Welcome renders with a param 1`] = `
+<h4>
+  Hello, 
+  Dude
+</h4>
+`;

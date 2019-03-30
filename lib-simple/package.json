@@ -1,8 +1,8 @@
 {
   "name": "@daneroo/pika-lib-simple",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Trying pika pack",
-  "author": "Daniel Lauzon <daniel.lauzon@gmail.com>",
+  "author": "",
   "homepage": "https://github.com/daneroo/pikatest#readme",
   "publishConfig": {
     "access": "public"
@@ -44,10 +44,8 @@
     "build": "pack build"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-syntax-import-meta": "^7.2.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "@pika/pack": "^0.3.6",
@@ -56,6 +54,7 @@
     "@pika/plugin-build-web": "^0.3.14",
     "@pika/plugin-standard-pkg": "^0.3.14",
     "jest": "^24.5.0",
+    "react-test-renderer": "^16.8.6",
     "standard": "^12.0.1"
   },
   "standard": {
