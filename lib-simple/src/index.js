@@ -1,20 +1,10 @@
 
 // // These break!!!!
+import Welcome from './Welcome' // eslint-disable-line no-unused-vars
+import Greeter from './Greeter' // eslint-disable-line no-unused-vars
+
 export { Welcome } from './Welcome'
 export { Greeter } from './Greeter'
 
-// export {
-//   Greeter, Welcome
-// }
-
-// import React from 'react'
-
-// export function Welcome ({ name = 'Dan-eroo' }) {
-//   return (<h4>Hello, {name} from a component in a library</h4>)
-// }
-
-// export function Wilkomen ({ name = 'Dan-eroo' }) {
-//   return (<h4>Wilkomen, {name} from a component in a library, with a hook</h4>)
-// }
-
-// export const Greeter = (name) => `Hello ${name}, from a library`
+// This didn't help @pika/plugin-build-types
+export default { Welcome, Greeter }
