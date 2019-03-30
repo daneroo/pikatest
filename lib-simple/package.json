@@ -1,7 +1,19 @@
 {
   "name": "@daneroo/pika-lib-simple",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Trying pika pack",
+  "author": "Daniel Lauzon <daniel.lauzon@gmail.com>",
+  "homepage": "https://github.com/daneroo/pikatest#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daneroo/pikatest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daneroo/pikatest/issues"
+  },
   "@pika/pack": {
     "pipeline": [
       [
