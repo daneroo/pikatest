@@ -15,9 +15,6 @@
     "url": "https://github.com/daneroo/pikatest/issues"
   },
   "@pika/pack": {
-    "removed-cause-it breaks the build": [
-      "@pika/plugin-build-types"
-    ],
     "pipeline": [
       [
         "@pika/plugin-standard-pkg",
@@ -32,8 +29,10 @@
       ],
       [
         "@pika/plugin-build-web"
-      ]
-    ]
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]    ]
   },
   "main": "src/index.js",
   "scripts": {
