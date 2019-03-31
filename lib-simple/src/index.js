@@ -7,4 +7,4 @@ export { Welcome } from './Welcome'
 export { Greeter } from './Greeter'
 
 // This didn't help @pika/plugin-build-types
-export default { Welcome, Greeter }
+// export default { Welcome, Greeter }
