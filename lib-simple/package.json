@@ -1,6 +1,6 @@
 {
   "name": "@daneroo/pika-lib-simple",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Trying pika pack",
   "author": "",
   "homepage": "https://github.com/daneroo/pikatest#readme",
@@ -32,7 +32,8 @@
       ],
       [
         "@pika/plugin-build-types"
-      ]    ]
+      ]
+    ]
   },
   "main": "src/index.js",
   "scripts": {
